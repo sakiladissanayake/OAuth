@@ -1,6 +1,6 @@
 # OAuth 2.0 Server
 
-A simple web application and server develop to demonstrate how to work OAuth2.0
+A simple web client application and server develop to demonstrate how to work OAuth2.0
 
 Steps:
 

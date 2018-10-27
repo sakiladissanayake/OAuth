@@ -1,12 +1,12 @@
 {
-  "name": "Git_Oauth_Demo",
+  "name": "Git_Oauth",
   "version": "1.0.0",
-  "description": "Git Oauth Demo Server",
+  "description": "Oauth Server",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js"
   },
-  "author": "Kasun Madusanka",
+  "author": "Sakila Dissanayake",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",

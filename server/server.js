@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cross);
 
-// Token
+// Post request for get access token
 app.post('/token', (req, res, next) => {
 
   axios.post('https://github.com/login/oauth/access_token', {
@@ -27,7 +27,7 @@ app.post('/token', (req, res, next) => {
     });
 })
 
-//Get User Data
+//Post request for pass the access token and get data
 app.post('/data', (req, res, next) => {
   axios.get('https://api.github.com/user?access_token='+req.body.accessToken)
     .then(function (data) {
